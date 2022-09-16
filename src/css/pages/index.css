@@ -1,0 +1,11 @@
+.page__login .content-wrapper,
+.page__teacher .content-wrapper,
+.page__student .content-wrapper {
+	display: flex;
+	height: 100%;
+	flex-direction: column;
+	justify-content: center;
+}
+
+
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInBhZ2VzL2luZGV4LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7OztFQUtFLGFBQWE7RUFDYixZQUFZO0VBQ1osc0JBQXNCO0VBQ3RCLHVCQUF1QixFQUFBIiwiZmlsZSI6InBhZ2VzL2luZGV4LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5wYWdlX19sb2dpbixcbi5wYWdlX190ZWFjaGVyLFxuLnBhZ2VfX3N0dWRlbnR7XG5cblx0LmNvbnRlbnQtd3JhcHBlciB7XG5cdFx0ZGlzcGxheTogZmxleDtcblx0XHRoZWlnaHQ6IDEwMCU7XG5cdFx0ZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcblx0XHRqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcblx0fVxuXG59XG4iXX0= */
