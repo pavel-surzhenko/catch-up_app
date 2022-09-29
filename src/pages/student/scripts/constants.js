@@ -9,19 +9,19 @@ export const timeSlots = {
 
 export const lessons = {
     type_01: {
-        title: 'Новый урок',
+        title: 'New lesson',
         duration: 120
     },    
     type_02: {
-        title: 'Аудирование',
+        title: 'Listening',
         duration: 90
     },    
     type_03: {
-        title: 'Рефреш знаний',
+        title: 'Repeat',
         duration: 60
     },    
     type_04: {
-        title: 'Тестирование',
+        title: 'Testing',
         duration: 60
     },
 };

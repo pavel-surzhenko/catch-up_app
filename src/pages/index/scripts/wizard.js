@@ -62,13 +62,13 @@ function validationName() {
 
     if(!/[A-ZА-ЯЁ]{2,}\s[A-ZА-ЯЁ]{2,}/gi.test(name.value)) {
         name.classList.add('error');
-        label.innerText = 'Введите имя и фамилию';
+        label.innerText = 'Please enter first and last name';
         label.style='color:red;';
         return false;
     }
     else {
         name.classList.remove('error');
-        label.innerText = 'Имя и фамилия';
+        label.innerText = 'First and last name';
         label.style = '';
         return true;
     }
@@ -79,13 +79,13 @@ function validationMail() {
 
     if(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email.value) == false) {
         email.classList.add('error');
-        label.innerText = 'Введите правильный email';
+        label.innerText = 'Please enter a valid email';
         label.style='color:red;';
         return false;
     }
     else{
         email.classList.remove('error');
-        label.innerText = 'Электропочта';
+        label.innerText = 'Email';
         label.style = '';
         return true;
     }
@@ -97,14 +97,14 @@ function validationPassword() {
     if(password.value.length < 1 || password.value !== password2.value) {
         password.classList.add('error');
         password2.classList.add('error');
-        label.innerText = 'Пароли не совпадают';
+        label.innerText = 'Passwords do not match';
         label.style='color:red;';
         return false;
     }
     else{
         password.classList.remove('error');
         password2.classList.remove('error');
-        label.innerText = 'Пароль';
+        label.innerText = 'Password';
         label.style = '';
         return true;
     }

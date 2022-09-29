@@ -1,5 +1,5 @@
 import formatDistance from 'date-fns/formatDistance';
-import { ru } from 'date-fns/esm/locale';
+import { en } from 'date-fns/esm/locale';
 
 const reviews = document.getElementById('reviews');
 
@@ -17,7 +17,7 @@ const getReview = (review) => {
     const relatedDate = formatDistance(
         new Date(created), 
         new Date(), { 
-            locale: ru, 
+            locale: en, 
             addSuffix: true,
             includeSeconds: true
         }

@@ -10,7 +10,7 @@ const bookedLessons = JSON.parse(localStorage.getItem('lessons')) ?? [{
 
 const getLesson = (lesson) => {
     let { name, time, tomorrow, title, duration } = lesson;
-    tomorrow === true ? tomorrow = "Завтра" : tomorrow = 'Сегодня';
+    tomorrow === true ? tomorrow = "Tomorrow" : tomorrow = 'Today';
     let i;
     duration % 60 == 0 ? i =`${time + Math.floor(duration/60)}:00` : i = `${time + Math.floor(duration/60)}:30`;
     return `

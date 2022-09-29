@@ -31,7 +31,7 @@ const userLesson = bookedLessons.filter(el=>el.name == user.name);
 
 const getLesson = (lesson) => {
     let { time, tomorrow, title, duration } = lesson;
-    tomorrow === true ? tomorrow = "Завтра" : tomorrow = 'Сегодня';
+    tomorrow === true ? tomorrow = "Tomorrow" : tomorrow = 'Today';
     let i;
     duration % 60 == 0 ? i =`${time + Math.floor(duration/60)}:00` : i = `${time + Math.floor(duration/60)}:30`;
     if(Object.keys(lesson).length == 0){
@@ -44,7 +44,7 @@ const getLesson = (lesson) => {
                 </span>
             </div>
             <div class="info">
-                <p class="info-title">У тебя еще нет уроков, запишись!</p>
+                <p class="info-title">You don't have lessons yet, sign up!</p>
                 <p class="info-desc"></p>
             </div>
         </div>`;
@@ -60,7 +60,7 @@ const getLesson = (lesson) => {
             </div>
             <div class="info">
                 <p class="info-title">${tomorrow} "${title}"!</p>
-                <p class="info-desc">${time}:00 — ${i}, не опаздывай</p>
+                <p class="info-desc">${time}:00 — ${i}, do not be late</p>
             </div>
         </div>`;
     };
