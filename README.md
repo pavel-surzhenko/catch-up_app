@@ -1,7 +1,11 @@
 # JS project English school app
 ```
-Website for an English language school. 
-It has a student / teacher registration form, a personal account with which you can sign up for lessons, check the schedule and also leave feedback.
+Website for an English language school:
+  - student / teacher registration form
+  - personal account with which you can: -sign up for lessons
+                                         -check the schedule
+                                         -leave feedback
+
 ```
 
 ### Installation
